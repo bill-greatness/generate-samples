@@ -1,0 +1,256 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "item": {
+        "name": "Natarag Pencils",
+        "photoURL": "",
+        "datePosted": "02/02/2022",
+        "description": "Great Pencils for all your works."
+      },
+      "status": "N/A",
+      "rating": 2,
+      "price": 18.21,
+      "currency": "CNY",
+      "store": {
+        "name": "Design Theories",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 3,
+        "openingHours": "11:00 - 23:00",
+        "phoneLine": "(118)-472-2184",
+        "numberOfFollowers": 2455,
+        "address": {
+          "street": "Fintone St.",
+          "cordinates": { "longitude": 7.659, "lattitude": 0.3432 }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "item": {
+        "name": "Mouse Eraser",
+        "datePosted": "04/05/2020",
+        "description": "Nice eraser for your kids."
+      },
+      "status": "N/A",
+      "rating": 5,
+      "price": 12.12,
+      "currency": "CAD",
+      "store": {
+        "name": "Design Theories",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 3,
+        "openingHours": "11:00 - 23:00",
+        "phoneLine": "(118)-472-2184",
+        "numberOfFollowers": 2455,
+        "address": {
+          "street": "Fintone St.",
+          "cordinates": { "longitude": 7.659, "lattitude": 0.3432 }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "item": {
+        "name": "Final Test Item",
+        "category": "N/A",
+        "datePosted": "09/04/2022",
+        "description": "Some Description Here"
+      },
+      "status": "Banned",
+      "rating": 4,
+      "price": 18.21,
+      "currency": "CAD",
+      "store": {
+        "name": "Cookies Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Supermarket",
+        "storeID": 2,
+        "openingHours": "8:00 - 16:00",
+        "phoneLine": "(208)-243-2793",
+        "numberOfFollowers": 1394,
+        "address": {
+          "street": "Alfafa St.",
+          "cordinates": { "longitude": 13.441, "lattitude": 0.334 }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "item": {
+        "name": "Whiteboard Marker",
+        "datePosted": "02/01/2012",
+        "description": "Item Description Here"
+      },
+      "status": "Available",
+      "rating": 4,
+      "price": 210,
+      "currency": "CAD",
+      "store": {
+        "name": "Cookies Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 5,
+        "openingHours": "6:00 - 17:00",
+        "phoneLine": "(99)-235-1061",
+        "numberOfFollowers": 4808,
+        "address": {
+          "street": "FishEye St.",
+          "cordinates": { "longitude": 88.223, "lattitude": 19.002 }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "item": {
+        "name": "Sanyo Cabbage",
+        "datePosted": "04/06/2022",
+        "description": "Item Description Here"
+      },
+      "status": "Available",
+      "rating": 1,
+      "price": 210,
+      "currency": "EUR",
+      "store": {
+        "name": "Cookies Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Supermarket",
+        "storeID": 2,
+        "openingHours": "8:00 - 16:00",
+        "phoneLine": "(208)-243-2793",
+        "numberOfFollowers": 1394,
+        "address": {
+          "street": "Alfafa St.",
+          "cordinates": { "longitude": 13.441, "lattitude": 0.334 }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "item": {
+        "name": "Mouse Eraser",
+        "datePosted": "04/05/2020",
+        "description": "Nice eraser for your kids."
+      },
+      "status": "N/A",
+      "rating": 4,
+      "price": 300,
+      "currency": "CFA",
+      "store": {
+        "name": "Cookies Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 5,
+        "openingHours": "6:00 - 17:00",
+        "phoneLine": "(99)-235-1061",
+        "numberOfFollowers": 4808,
+        "address": {
+          "street": "FishEye St.",
+          "cordinates": { "longitude": 88.223, "lattitude": 19.002 }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "item": {
+        "name": "Mouse Eraser",
+        "datePosted": "04/05/2020",
+        "description": "Nice eraser for your kids."
+      },
+      "status": "N/A",
+      "rating": 3,
+      "price": 0.55,
+      "currency": "CAD",
+      "store": {
+        "name": "Greatness Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 1,
+        "openingHours": "8:00 - 24:00",
+        "phoneLine": "(55)-812-4206",
+        "numberOfFollowers": 4582,
+        "address": {
+          "street": "Cryton Avenue",
+          "cordinates": { "longitude": -16.232, "lattitude": 18.334 }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "item": {
+        "name": "Track Suit",
+        "datePosted": "04/05/2022",
+        "description": "Neat Track Suite for you"
+      },
+      "status": "Available",
+      "rating": 2,
+      "price": 12.12,
+      "currency": "CNY",
+      "store": {
+        "name": "Design Theories",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Restaurants",
+        "storeID": 4,
+        "openingHours": "2:00 - 18:00",
+        "phoneLine": "(224)-325-9693",
+        "numberOfFollowers": 1727,
+        "address": {
+          "street": "Litos St.",
+          "cordinates": { "longitude": -2.221, "lattitude": 11.221 }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "item": {
+        "name": "Cocoa Chocolate",
+        "datePosted": "06/04/2022",
+        "description": "Chocolate Description Here"
+      },
+      "status": "Available",
+      "rating": 1,
+      "price": 210,
+      "currency": "GBP",
+      "store": {
+        "name": "Greatness Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 1,
+        "openingHours": "8:00 - 24:00",
+        "phoneLine": "(55)-812-4206",
+        "numberOfFollowers": 4582,
+        "address": {
+          "street": "Cryton Avenue",
+          "cordinates": { "longitude": -16.232, "lattitude": 18.334 }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "item": {
+        "name": "Sanyo Cabbage",
+        "datePosted": "04/06/2022",
+        "description": "Item Description Here"
+      },
+      "status": "Out Of Stock",
+      "rating": 4,
+      "price": 18.21,
+      "currency": "CAD",
+      "store": {
+        "name": "Greatness Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 1,
+        "openingHours": "8:00 - 24:00",
+        "phoneLine": "(55)-812-4206",
+        "numberOfFollowers": 4582,
+        "address": {
+          "street": "Cryton Avenue",
+          "cordinates": { "longitude": -16.232, "lattitude": 18.334 }
+        }
+      }
+    }
+  ]
+}
