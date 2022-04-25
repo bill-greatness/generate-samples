@@ -10,7 +10,7 @@ You can generate sample for your projects in regards to users data, posts, comme
 
 ### Users 
 Generate user samples.
-Fields are selected at random. by default, you can get a result of 100 users at a time.
+Fields are selected at random. by default, you can get a result of *100* users at a time.
 You can access user details on other sample files with their ID's.
 
 User Fields

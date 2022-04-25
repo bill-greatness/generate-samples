@@ -1,6 +1,6 @@
 from datetime import datetime
-import json
 import random
+import json
 
 todos = [
     "Buy Biscuits for Kids",
@@ -36,27 +36,24 @@ todos = [
 
 statuses = ["Completed", "New", "Staled", "Cancelled"]
 
-info = []
 
-print(len(todos))
-for x in range(len(todos)):
-    genDate = datetime(datetime.now().year, datetime.now().month, random.randint(
-        1, 20), random.randint(1, 12), random.randint(10, 59), random.randint(3, 59))
-    todo = random.choice(todos)
-    status = random.choice(statuses)
-    time = genDate.ctime()
-    userID = random.randint(1, len(todos))
+def generateTodos(number):
+    info = []
+    for x in range(number):
+        genDate = datetime(datetime.now().year, datetime.now().month, random.randint(
+            1, 20), random.randint(1, 12), random.randint(10, 59), random.randint(3, 59))
+        todo = random.choice(todos)
+        status = random.choice(statuses)
+        time = genDate.ctime()
+        userID = random.randint(1, len(todos))
 
-    content = {
-        "id": x + 1,
-        "activity": todo.title(),
-        "status": status,
-        "time": time,
-        "userID":userID
-    }
+        content = {
+            "id": x + 1,
+            "activity": todo.title(),
+            "status": status,
+            "time": time,
+            "userID":userID
+        }
 
-    info.append(content)
-
-with open("todos.json","w") as file:
-    file.write(json.dumps({"todos":info}))
-    file.close()
+        info.append(content)
+    return json.dumps({"todos":info})

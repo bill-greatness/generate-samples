@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Simon Havertz",
+      "occupation": "Programmer",
+      "age": 45,
+      "countryOfOrigin": "UAE",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/females/IMG-011.png",
+      "email": "simonhavertz134@ymail.com",
+      "gender": "Trans",
+      "maritalStatus": "Divorced",
+      "dateOfBirth": "14/2/1977",
+      "phoneLine": "(20)-504-1350",
+      "address": {
+        "street": "Michael Jackson St.",
+        "cordinates": { "latitude": 19.002, "longitude": 8.5564 }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Elena Charlie",
+      "occupation": "Accountant",
+      "age": 60,
+      "countryOfOrigin": "Croatia",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-007.png",
+      "email": "elenacharlie831@gmail.com",
+      "gender": "Male",
+      "maritalStatus": "Complicated",
+      "dateOfBirth": "4/6/1962",
+      "phoneLine": "(103)-959-6445",
+      "address": {
+        "street": "Randomness Lane St.",
+        "cordinates": { "latitude": 33.66, "longitude": 4.443 }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Princess Greatness",
+      "occupation": "Comedian",
+      "age": 81,
+      "countryOfOrigin": "Albania",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-002.png",
+      "email": "princessgreatness875@xyz.com",
+      "gender": "Female",
+      "maritalStatus": "Separated",
+      "dateOfBirth": "18/1/1941",
+      "phoneLine": "(9)-661-9610",
+      "address": {
+        "street": "Cryton Avenue",
+        "cordinates": { "latitude": 0.334, "longitude": 8.5564 }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bridget Martin",
+      "occupation": "Programmer",
+      "age": 28,
+      "countryOfOrigin": "Switzerland",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-013.png",
+      "email": "bridgetmartin18@test.com",
+      "gender": "Trans",
+      "maritalStatus": "Separated",
+      "dateOfBirth": "14/5/1994",
+      "phoneLine": "(238)-892-3298",
+      "address": {
+        "street": "Pencil St.",
+        "cordinates": { "latitude": 0.3432, "longitude": -3.33 }
+      }
+    },
+    {
+      "id": 5,
+      "name": "JaneStephan Johnson",
+      "occupation": "Programmer",
+      "age": 91,
+      "countryOfOrigin": "Canada",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-010.png",
+      "email": "janestephanjohnson419@somewhere.com",
+      "gender": "Male",
+      "maritalStatus": "Complicated",
+      "dateOfBirth": "8/11/1931",
+      "phoneLine": "(72)-839-8901",
+      "address": {
+        "street": "Michael Jackson St.",
+        "cordinates": { "latitude": 5.34, "longitude": 88.223 }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mclean Martin",
+      "occupation": "Bedie Wura",
+      "age": 35,
+      "countryOfOrigin": "Italy",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-011.png",
+      "email": "mcleanmartin239@bby.com",
+      "gender": "N/A",
+      "maritalStatus": "Complicated",
+      "dateOfBirth": "22/4/1987",
+      "phoneLine": "(196)-600-3133",
+      "address": {
+        "street": "Jane Newman St.",
+        "cordinates": { "latitude": 0.333, "longitude": 4.443 }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Frank Otoo",
+      "occupation": "Contractor",
+      "age": 31,
+      "countryOfOrigin": "Luxembourg",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-002.png",
+      "email": "frankotoo235@apple.com",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "dateOfBirth": "0/3/1991",
+      "phoneLine": "(45)-398-1838",
+      "address": {
+        "street": "Pencil St.",
+        "cordinates": { "latitude": 0.4522, "longitude": 8.22 }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Rosemary Frick",
+      "occupation": "Comedian",
+      "age": 97,
+      "countryOfOrigin": "Sweden",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-010.png",
+      "email": "rosemaryfrick27@xyz.com",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "dateOfBirth": "7/12/1925",
+      "phoneLine": "(79)-499-2941",
+      "address": {
+        "street": "Alfafa St.",
+        "cordinates": { "latitude": 54.221, "longitude": 92.34 }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Jayden Ofori",
+      "occupation": "Businessman",
+      "age": 35,
+      "countryOfOrigin": "Mexico",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-001.png",
+      "email": "jaydenofori797@gmail.com",
+      "gender": "Male",
+      "maritalStatus": "Single",
+      "dateOfBirth": "13/10/1987",
+      "phoneLine": "(72)-792-8465",
+      "address": {
+        "street": "Perry Hikes St.",
+        "cordinates": { "latitude": 0.3432, "longitude": 3.442 }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Jayden Otoo",
+      "occupation": "Beans Seller",
+      "age": 88,
+      "countryOfOrigin": "Poland",
+      "photoURL": "https://github.com/bill-greatness/generate-samples/blob/master/images/males/IMG-007.png",
+      "email": "jaydenotoo166@test.com",
+      "gender": "Female",
+      "maritalStatus": "Single",
+      "dateOfBirth": "10/10/1934",
+      "phoneLine": "(136)-460-5577",
+      "address": {
+        "street": "Alfafa St.",
+        "cordinates": { "latitude": 5.3314, "longitude": 229.2334 }
+      }
+    }
+  ]
+}

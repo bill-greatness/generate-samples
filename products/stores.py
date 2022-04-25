@@ -1,5 +1,4 @@
 import random
-import pprint
 storeNames = ["Greatness Cooks", "Elora Group", "Alpine Store",
               "Kristein Collections", "Design Theories", "Cookies Cooks", "Lucas Point"]
 
@@ -46,4 +45,3 @@ for store in range(5):
 
     stores.append(storeInfo)
 
-pprint.pprint(stores)

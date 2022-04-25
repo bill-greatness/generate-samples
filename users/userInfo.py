@@ -3,6 +3,9 @@ import random
 from datetime import datetime
 import json
 
+mphotoPath = "https://github.com/bill-greatness/generate-samples/blob/master/images/males"
+fphotoPath = "https://github.com/bill-greatness/generate-samples/blob/master/images/females"
+
 firstNames = ["Tracy", "Mclean", "Simon", "Felix", "James", "Princess", "Jane" "Stephan", "Jessica", "Roxanne", "Emma", "Rosemary", "Frank", "Chloe", "Nick", "Portia", "Fanny", "Nicholas", "Bill",
               "Rosa", "Jayden", "Kristein", "Elora", "Christian", "Elena", "John", "Precious", "Emmanuella", "Joella", "Pete", "Bridget", "Kai"]
 
@@ -36,49 +39,64 @@ countries = ["USA", "Canada", "Ghana", "Luxembourg", "Algeria", "Nigeria", "Kuwa
              "France", "Italy", "Spain", "Belgium", "Sweden", "Switzerland", "Finland", "Iceland", "Albania"
              ]
 
-info = []
 
-for d in range(100):
-    firstname = random.choice(firstNames)
-    lastName = random.choice(lastNames)
-    email = firstname.lower() + lastName.lower() + str(random.randint(10, 999)) + \
-        random.choice(mailExtension)
-    origin = random.choice(countries)
-    year = random.randint(1920, 2001)
-    dateOfBirth = str(random.randint(0, 29)) + "/" + \
-        str(random.randint(1, 12)) + "/" + str(year)
-    phoneLine = "(" + str(random.randint(0o1, 276)) + ")" + "-" + \
-        str(random.randint(100, 999)) + "-" + str(random.randint(1000, 9999))
-    age = datetime.today().year - year
-    gender = random.choice(genderGroups)
-    photo = photoURLs[0] if gender == "Female" else photoURLs[1]
-    job = random.choice(occupations)
-    maritalStatus = random.choice(maritalStatuses)
 
-    content = {
-        "id": d + 1,
-        "name": firstname + " " + lastName,
-        "occupation": job,
-        "age": age,
-        "countryOfOrigin": origin,
-        "photoURL": photo,
-        "email": email,
-        "gender": gender,
-        "maritalStatus": maritalStatus,
-        "dateOfBirth": dateOfBirth,
-        "phoneLine": phoneLine,
-        "address": {
-            "street": random.choice(streets),
-            "cordinates": {
-                "latitude": random.choice(latitudes),
-                "longitude": random.choice(longitudes)
+def generateImage(gender):
+    pick = random.randint(1, 15)
+    if pick < 9:
+        pick = "0" + str(pick)
+    else:
+        pick = str(pick)
+    #Generate Image based on Gender. 
+    if gender == "Male":
+        return mphotoPath + "/IMG-0" + pick + ".png"
+    if gender == "Female":
+        return mphotoPath + "/IMG-0" + pick + ".png"
+    else:
+        return random.choice([mphotoPath, fphotoPath]) + "/IMG-0" + pick + ".png"
+
+
+# Generate a number of users.
+def generateUsers(number):
+    info = []
+    for d in range(number):
+        firstname = random.choice(firstNames)
+        lastName = random.choice(lastNames)
+        email = firstname.lower() + lastName.lower() + str(random.randint(10, 999)) + \
+            random.choice(mailExtension)
+        origin = random.choice(countries)
+        year = random.randint(1920, 2001)
+        dateOfBirth = str(random.randint(0, 29)) + "/" + \
+            str(random.randint(1, 12)) + "/" + str(year)
+        phoneLine = "(" + str(random.randint(0o1, 276)) + ")" + "-" + \
+            str(random.randint(100, 999)) + "-" + str(random.randint(1000, 9999))
+        age = datetime.today().year - year
+        gender = random.choice(genderGroups)
+        photo = generateImage(gender=gender)
+        job = random.choice(occupations)
+        maritalStatus = random.choice(maritalStatuses)
+
+        content = {
+            "id": d + 1,
+            "name": firstname + " " + lastName,
+            "occupation": job,
+            "age": age,
+            "countryOfOrigin": origin,
+            "photoURL": photo,
+            "email": email,
+            "gender": gender,
+            "maritalStatus": maritalStatus,
+            "dateOfBirth": dateOfBirth,
+            "phoneLine": phoneLine,
+            "address": {
+                "street": random.choice(streets),
+                "cordinates": {
+                    "latitude": random.choice(latitudes),
+                    "longitude": random.choice(longitudes)
+                }
             }
         }
-    }
 
-    info.append(content)
+        info.append(content)
+    return json.dumps({"users":info})
 
-
-with open("user.json","w") as file:
-    file.write(json.dumps({"users": info}))
-    file.close()

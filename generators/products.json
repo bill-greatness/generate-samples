@@ -1,0 +1,257 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "item": {
+        "name": "Bikini",
+        "datePosted": "02/03/2021",
+        "description": "Nice Bikini for you"
+      },
+      "status": "N/A",
+      "rating": 3,
+      "price": 18.21,
+      "currency": "GHS",
+      "store": {
+        "name": "Kristein Collections",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Pharmacy",
+        "storeID": 3,
+        "openingHours": "7:00 - 20:00",
+        "phoneLine": "(144)-776-2263",
+        "numberOfFollowers": 1529,
+        "address": {
+          "street": "Alfafa St.",
+          "cordinates": { "longitude": 4.443, "lattitude": 19.002 }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "item": {
+        "name": "Bikini",
+        "datePosted": "02/03/2021",
+        "description": "Nice Bikini for you"
+      },
+      "status": "Banned",
+      "rating": 2,
+      "price": 400,
+      "currency": "AED",
+      "store": {
+        "name": "Kristein Collections",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Pharmacy",
+        "storeID": 3,
+        "openingHours": "7:00 - 20:00",
+        "phoneLine": "(144)-776-2263",
+        "numberOfFollowers": 1529,
+        "address": {
+          "street": "Alfafa St.",
+          "cordinates": { "longitude": 4.443, "lattitude": 19.002 }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "item": {
+        "name": "Mouse Eraser",
+        "datePosted": "04/05/2020",
+        "description": "Nice eraser for your kids."
+      },
+      "status": "N/A",
+      "rating": 5,
+      "price": 200.12,
+      "currency": "USD",
+      "store": {
+        "name": "Kristein Collections",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 1,
+        "openingHours": "9:00 - 18:00",
+        "phoneLine": "(26)-500-1582",
+        "numberOfFollowers": 3937,
+        "address": {
+          "street": "Randomness Lane St.",
+          "cordinates": { "longitude": 12.231, "lattitude": 19.002 }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "item": {
+        "name": "Natarag Pencils",
+        "photoURL": "",
+        "datePosted": "02/02/2022",
+        "description": "Great Pencils for all your works."
+      },
+      "status": "Available",
+      "rating": 2,
+      "price": 14.0,
+      "currency": "GHS",
+      "store": {
+        "name": "Lucas Point",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "General Goods",
+        "storeID": 5,
+        "openingHours": "4:00 - 24:00",
+        "phoneLine": "(203)-346-4441",
+        "numberOfFollowers": 840,
+        "address": {
+          "street": "Cryton Avenue",
+          "cordinates": { "longitude": 4.443, "lattitude": 54.221 }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "item": {
+        "name": "Final Test Item",
+        "category": "N/A",
+        "datePosted": "09/04/2022",
+        "description": "Some Description Here"
+      },
+      "status": "N/A",
+      "rating": 1,
+      "price": 400,
+      "currency": "CNY",
+      "store": {
+        "name": "Greatness Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 4,
+        "openingHours": "1:00 - 24:00",
+        "phoneLine": "(78)-764-6221",
+        "numberOfFollowers": 1069,
+        "address": {
+          "street": "Fintone St.",
+          "cordinates": { "longitude": -2.221, "lattitude": 12.11 }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "item": {
+        "name": "Cocoa Chocolate",
+        "datePosted": "06/04/2022",
+        "description": "Chocolate Description Here"
+      },
+      "status": "Out Of Stock",
+      "rating": 4,
+      "price": 200.12,
+      "currency": "CNY",
+      "store": {
+        "name": "Kristein Collections",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 1,
+        "openingHours": "9:00 - 18:00",
+        "phoneLine": "(26)-500-1582",
+        "numberOfFollowers": 3937,
+        "address": {
+          "street": "Randomness Lane St.",
+          "cordinates": { "longitude": 12.231, "lattitude": 19.002 }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "item": {
+        "name": "Cocoa Chocolate",
+        "datePosted": "06/04/2022",
+        "description": "Chocolate Description Here"
+      },
+      "status": "3 left in stock",
+      "rating": 2,
+      "price": 0.99,
+      "currency": "CNY",
+      "store": {
+        "name": "Greatness Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 4,
+        "openingHours": "1:00 - 24:00",
+        "phoneLine": "(78)-764-6221",
+        "numberOfFollowers": 1069,
+        "address": {
+          "street": "Fintone St.",
+          "cordinates": { "longitude": -2.221, "lattitude": 12.11 }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "item": {
+        "name": "Final Test Item",
+        "category": "N/A",
+        "datePosted": "09/04/2022",
+        "description": "Some Description Here"
+      },
+      "status": "Available",
+      "rating": 3,
+      "price": 300,
+      "currency": "CAD",
+      "store": {
+        "name": "Greatness Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 4,
+        "openingHours": "1:00 - 24:00",
+        "phoneLine": "(78)-764-6221",
+        "numberOfFollowers": 1069,
+        "address": {
+          "street": "Fintone St.",
+          "cordinates": { "longitude": -2.221, "lattitude": 12.11 }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "item": {
+        "name": "Sanyo Cabbage",
+        "datePosted": "04/06/2022",
+        "description": "Item Description Here"
+      },
+      "status": "3 left in stock",
+      "rating": 2,
+      "price": 14.0,
+      "currency": "CAD",
+      "store": {
+        "name": "Lucas Point",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Pharmacy",
+        "storeID": 2,
+        "openingHours": "8:00 - 16:00",
+        "phoneLine": "(246)-961-9906",
+        "numberOfFollowers": 190,
+        "address": {
+          "street": "Randomness Lane St.",
+          "cordinates": { "longitude": 88.223, "lattitude": 11.221 }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "item": {
+        "name": "Track Suit",
+        "datePosted": "04/05/2022",
+        "description": "Neat Track Suite for you"
+      },
+      "status": "N/A",
+      "rating": 5,
+      "price": 18.21,
+      "currency": "EUR",
+      "store": {
+        "name": "Greatness Cooks",
+        "logo": "https://via.placeholder.com/120x120.png",
+        "category": "Fashion",
+        "storeID": 4,
+        "openingHours": "1:00 - 24:00",
+        "phoneLine": "(78)-764-6221",
+        "numberOfFollowers": 1069,
+        "address": {
+          "street": "Fintone St.",
+          "cordinates": { "longitude": -2.221, "lattitude": 12.11 }
+        }
+      }
+    }
+  ]
+}
